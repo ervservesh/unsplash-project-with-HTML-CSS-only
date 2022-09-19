@@ -150,7 +150,8 @@ $("#popup-modal").click(function(){
 $(".popup-sec-dialog").click(function(event){
   event.stopPropagation();
 });
-// Prevent events from getting pass .popup
+ 
+ 
 $("#closeBtn").click(function(){
     $("#popup-modal").fadeOut().removeClass("show");
     $('#modalBackdrop').fadeOut().removeClass("show");
